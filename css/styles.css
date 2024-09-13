@@ -160,7 +160,7 @@ header {
 
 
 .hero-section {
-    background-image: url('/assets/art/1930119_davidgoliath.jpg');
+    background-image: url('/assets/logos/bamne.jpg');
     background-size: cover;
     background-position: center;
     height: 80vh;
@@ -171,7 +171,7 @@ header {
 }
 
 .overlay {
-    background-color: rgba(165, 156, 121, 0.681); 
+    background-color: rgba(165, 156, 121, 0.822); 
     color: #fff;
     text-align: center;
     padding: 50px;
@@ -184,7 +184,7 @@ header {
 }
 
 .hero-section p {
-    font-size: 1.2em;
+    font-size: 1.5em;
     margin-bottom: 30px;
 }
 
@@ -200,11 +200,11 @@ header {
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
-    transition: background-color 0.3s ease-in-out;
+    transform: transform 0.3s;
 }
 
 .button1:hover {
-    background-color: #8a7d66;
+    transform: scale(1.05);
 }
 
 /* ------------------------------------------------------ */
@@ -230,7 +230,6 @@ header {
 
 .gallery-img {
     background-color: #fff;
-    border: 10px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 60vh;
@@ -315,6 +314,11 @@ p {
     padding: 20px;
     margin-top: 100px;
     background-color: rgb(220, 209, 179);
+    justify-content: space-around
+}
+
+.section{
+    display: flex;
 }
 
 .footer h3{
