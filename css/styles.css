@@ -160,7 +160,7 @@ header {
 
 
 .banner-section {
-    background-image: url('/assets/logos/bamne.jpg');
+    background-image: url('/assets/logos/bannerlog.jpg');
     background-size: cover;
     background-position: center;
     height: 80vh;
@@ -171,8 +171,8 @@ header {
 }
 
 .overlay-banner {
-    background-color: rgba(175, 175, 175, 0.822); 
-    color: #fff;
+    background-color: rgba(255, 255, 255, 0.898); 
+    color: #48555b;
     text-align: center;
     padding: 50px;
     border-radius: 10px;
