@@ -7,8 +7,8 @@
     font-style: normal;
 }
 
-body{
-    background-color: #ffffff;
+body {
+    background-color: #dfdfdf;
 }
 
 
@@ -20,7 +20,7 @@ li{
 
 a{
     text-decoration: none;
-    color: #ffffff;
+    color: #3a3a3a;
     font-size: 20px;
 
 }
@@ -35,7 +35,7 @@ header {
     left: 0;
     width: 100%; 
     padding: 0 2rem;
-    background-color: rgb(220, 209, 179);
+    background-color: rgb(234, 233, 229);
     z-index: 1000; 
 }
 
@@ -100,7 +100,7 @@ header {
     top: 60px;
     width: 300px;
     height: 0;
-    background-color: rgba(152, 137, 97, 0.62);
+    background-color: rgba(156, 156, 156, 0.62);
     backdrop-filter: blur(305px);
     border-radius: 10px;
     overflow: hidden;
@@ -159,7 +159,7 @@ header {
 /* -------------------- BANNER ------------------- */
 
 
-.hero-section {
+.banner-section {
     background-image: url('/assets/logos/bamne.jpg');
     background-size: cover;
     background-position: center;
@@ -170,20 +170,20 @@ header {
 
 }
 
-.overlay {
-    background-color: rgba(165, 156, 121, 0.822); 
+.overlay-banner {
+    background-color: rgba(175, 175, 175, 0.822); 
     color: #fff;
     text-align: center;
     padding: 50px;
     border-radius: 10px;
 }
 
-.hero-section h1 {
+.banner-section h1 {
     font-size: 3em;
     margin-bottom: 20px;
 }
 
-.hero-section p {
+.banner-section p {
     font-size: 1.5em;
     margin-bottom: 30px;
 }
@@ -195,8 +195,8 @@ header {
 }
 
 .button1 {
-    background-color: #1f2d34;
-    color: #b29f76;
+    background-color: #3f3f3f;
+    color: #9ea7ab;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
@@ -313,7 +313,7 @@ p {
     color: #fff;
     padding: 20px;
     margin-top: 100px;
-    background-color: rgb(220, 209, 179);
+    background-color: rgb(234, 233, 229);
     justify-content: space-around
 }
 
@@ -327,150 +327,3 @@ p {
 }
 
 /* ------------------------------------------------------- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* #carrusel-caja {
-    -moz-animation: automatizacion 15s infinite linear;
-    -o-animation: automatizacion 15s infinite linear;
-    -webkit-animation: automatizacion 15s infinite linear;
-    animation: automatizacion 15s infinite linear;
-    -webkit-transition: all 0.75s ease;
-    -moz-transition: all 0.75s ease;
-    -ms-transition: all 0.75s ease;
-    -o-transition: all 0.75s ease;
-    transition: all 0.75s ease;
-    height: 500px;
-    width: 300%;
-}
-#carrusel-contenido {
-    margin: 0 auto;
-    overflow: hidden;
-    text-align: left;
-}
-.imagenes{
-    height: 60vh;
-    width: 100%;
-}
-.carrusel-elemento {
-    float: left;
-    width: 33.333%;
-}
-@-moz-keyframes automatizacion {
-    0% {
-        margin-left: 0;
-    }
-    30% {
-        margin-left: 0;
-    }
-    35% {
-        margin-left: -100%;
-    }
-    65% {
-        margin-left: -100%;
-    }
-    70% {
-        margin-left: -200%;
-    }
-    95% {
-        margin-left: -200%;
-    }
-    100% {
-        margin-left: 0;
-    }
-}
-@-webkit-keyframes automatizacion {
-    0% {
-        margin-left: 0;
-    }
-    30% {
-        margin-left: 0;
-    }
-    35% {
-        margin-left: -100%;
-    }
-    65% {
-        margin-left: -100%;
-    }
-    70% {
-        margin-left: -200%;
-    }
-    95% {
-        margin-left: -200%;
-    }
-    100% {
-        margin-left: 0;
-    }
-}
-@keyframes automatizacion {
-    0% {
-        margin-left: 0;
-    }
-    30% {
-        margin-left: 0;
-    }
-    35% {
-        margin-left: -100%;
-    }
-    65% {
-        margin-left: -100%;
-    }
-    70% {
-        margin-left: -200%;
-    }
-    95% {
-        margin-left: -200%;
-    }
-    100% {
-        margin-left: 0;
-    }
-} */
